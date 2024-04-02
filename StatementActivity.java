@@ -51,7 +51,7 @@ public class StatementActivity extends AppCompatActivity {
                     textViewStatement.setText("Failed to fetch statement data");
                 }
             }
-
+            
             @Override
             public void onFailure(Call<StatementResponse> call, Throwable t) {
                 // Handle network or server error
